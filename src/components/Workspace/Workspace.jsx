@@ -1,6 +1,10 @@
 import React from 'react';
 import './Workspace.css';
 import Side_menu from '../Side_menu/Side_menu';
+import {
+    Routes,
+    Route
+} from "react-router-dom";
 
 const Workspace = () => {
   return (
@@ -14,6 +18,9 @@ const Workspace = () => {
         </div>
         <div class="div3 workspace1">
           {/* <Workspace/> */}b
+            <Routes>
+                <Route />
+            </Routes>
         </div>
       </div>
     </>

@@ -1,0 +1,95 @@
+.side_menu_sections{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: stretch;
+    align-content: normal;
+    width: 100%;
+    /* row-gap: 20px; */
+}
+.logo_section{
+    display: block;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    align-self: auto;
+    order: 0;
+    height: 100px;
+    /* background: blue; */
+    text-align: center;
+    margin-top: 30px;
+}
+.options_section{
+    display: block;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    align-self: auto;
+    order: 0;
+}
+
+.options_section1{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: normal;
+    align-items: center;
+    align-content: normal;
+    row-gap: 8.5px;
+}
+
+.options{
+    display: block;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    align-self: auto;
+    order: 0;
+    /* background: #4B0ACE; */
+    width: 85%;
+    /* height: 20px; */
+    border-radius: 15px;
+}
+
+.options:hover{
+    background: #F8F8F8;
+    cursor: pointer;
+}
+
+.options1{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: normal;
+    align-items: center;
+    align-content: normal;
+    height: 43px;
+    
+}
+
+.icon{
+    display: block;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    align-self: auto;
+    order: 0;
+    padding-left: 15px;
+
+    /* margin-left: 5px; */
+}
+
+.label{
+    display: block;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    align-self: auto;
+    order: 0;
+
+    color: #787686;
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    padding-left: 15px;
+}

@@ -5,6 +5,7 @@ import {
     Routes,
     Route
 } from "react-router-dom";
+import Navbar from '../Navebar/Navbar';
 
 const Workspace = () => {
   return (
@@ -14,7 +15,7 @@ const Workspace = () => {
           <Side_menu/>
         </div>
         <div class="div2 navbar">
-          {/* <Navbar/> */}a
+          <Navbar/>
         </div>
         <div class="div3 workspace1">
           {/* <Workspace/> */}b

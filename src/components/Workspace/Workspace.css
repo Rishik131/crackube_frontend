@@ -17,7 +17,7 @@
 }
 .div2 { 
     grid-area: 1 / 2 / 2 / 3; 
-    height: 50px;
+    height: 80px;
     /* background: green; */
 }
 .div3 { 

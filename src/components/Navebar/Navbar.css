@@ -6,6 +6,7 @@
     align-items: center;
     align-content: center;
     height: 100%;
+    gap: 12vw;
 }
 .nav_item1{
     display: block;
@@ -14,6 +15,7 @@
     flex-basis: auto;
     align-self: auto;
     order: 0;
+   
 }
 .nav_item2{
       display: block;
@@ -22,6 +24,7 @@
   flex-basis: auto;
   align-self: auto;
   order: 0;
+  margin-right: 30px;
 }
 
 .search_bar{
@@ -89,6 +92,8 @@
     justify-content: flex-end;
     align-items: center;
     align-content: normal;
+    height: 50px;
+    gap: 20px;
 }
 
 .item1, .item2, .item3, .item4{
@@ -98,4 +103,67 @@
     flex-basis: auto;
     align-self: auto;
     order: 0;
+    
+    height: 100%;
+}
+/* .item1:hover, .item2:hover, .item3:hover, .item4:hover{
+    cursor: pointer;
+}
+.item1:active, .item2:active, .item3:active, .item4:active{
+    background: #d0d1d2;
+} */
+
+
+.notification{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: normal;
+}
+.notification_icon, .notification_indicator{
+    display: block;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    align-self: auto;
+    order: 0;
+}
+
+.notification_indicator{
+    margin-left: -8px;
+    translate: 0 -8px;
+}
+
+.icons{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: normal;
+    height: 100%;
+    width: 50px;
+    background: #FAFBFC;
+    border-radius: 50%;
+}
+.icons:hover{
+    cursor: pointer;
+}
+.icons:active{
+    background: #d0d1d2;
+}
+.img_container{
+    display: block;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    align-self: auto;
+    order: 0;
+}
+#profile{
+    border-radius: 50%;
+    height: 100%;
+    width: 100%;
 }

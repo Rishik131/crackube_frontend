@@ -22,11 +22,45 @@ const Navbar = () => {
         <div className="nav_item2">
             <div className="nav_item3">
                 <div className="item1">
-                    <img src="" alt="" />
+                    <div className="icons">
+                        <div className="img_container">
+                        <img src="https://raw.githubusercontent.com/Rishik131/crackube_frontend/86fd865e17633f721bc79472142f1077f17c2bb5/src/components/assets/navbar_setting.svg"
+                            alt="Trending" />
+                        </div>
+                    </div>
                 </div>
-                <div className="item2"></div>
-                <div className="item3"></div>
-                <div className="item4"></div>
+                <div className="item2">
+                <div className="icons">
+                        <div className="img_container">
+                        <div className="notification">
+                        <div className="notification_icon">
+                            <img src="https://raw.githubusercontent.com/Rishik131/crackube_frontend/86fd865e17633f721bc79472142f1077f17c2bb5/src/components/assets/navbar_notification.svg"
+                                alt="notifications" />
+                        </div>
+                        <div className="notification_indicator">
+                            <img src="https://raw.githubusercontent.com/Rishik131/crackube_frontend/86fd865e17633f721bc79472142f1077f17c2bb5/src/components/assets/navbar_notification_red.svg"
+                                alt="" />
+                        </div>
+                    </div>
+                        </div>
+                    </div>
+                </div>
+                <div className="item3">
+                <div className="icons">
+                        <div className="img_container">
+                            <img src="https://raw.githubusercontent.com/Rishik131/crackube_frontend/86fd865e17633f721bc79472142f1077f17c2bb5/src/components/assets/navbar_achievements.svg"
+                                alt="achievements" />
+                        </div>
+                    </div>
+                </div>
+                <div className="item4">
+                    <div className="icons">
+                        <div className="img_container">
+                            <img src="https://raw.githubusercontent.com/Rishik131/crackube_frontend/86fd865e17633f721bc79472142f1077f17c2bb5/src/components/assets/navbar_profile.svg"
+                                alt="profile" id='profile' />
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
